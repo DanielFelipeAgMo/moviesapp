@@ -1,6 +1,7 @@
 import * as React from 'react'
 import {createStackNavigator} from '@react-navigation/stack'
 import Home from '../screens/Home';
+import Navbar from './Navbar';
 const Stack = createStackNavigator()
 
 class MainNavigation extends React.PureComponent{
@@ -17,7 +18,7 @@ class MainNavigation extends React.PureComponent{
                     ),
                 }}
                 />
-                <Stack.Screen
+              <Stack.Screen
                     name="Detalle"
                     component={Detail}
                     options={{
@@ -36,7 +37,7 @@ class MainNavigation extends React.PureComponent{
                     <Navbar main={false} navigation={navigation} />
                     ),
                 }}
-                />
+                /> 
 
             </Stack.Navigator>
             
