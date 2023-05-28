@@ -10,7 +10,7 @@ import {
   Text,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import {searchMovieTv} from '../services/service';
+import {searchMovieTv} from '../services/servicio';
 import Card from '../components/Card';
 import Error from '../components/Error';
 
